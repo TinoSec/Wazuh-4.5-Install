@@ -187,7 +187,14 @@ systemctl daemon-reload
 systemctl enable filebeat
 systemctl start filebeat
 ```
+
+Test filebeat configuration
+
+```bash
 filebeat test output
+```
+Correct configuration output
+
 <details>
   <summary>Output Filebeat Test</summary>
   
