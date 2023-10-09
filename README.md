@@ -110,6 +110,9 @@ curl -XGET https://localhost:9200 -u elastic:<elastic_password> -k
 ```
 </details>
 
+Your configuration file should look like this:
+[elasticsearch.yml](https://github.com/TinoSec/Wazuh-4.5-Install/blob/main/elasticsearch.yml)
+
 # Install Wazuh-Server
 Install GPG key
 ```bash
