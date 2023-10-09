@@ -1,5 +1,5 @@
 # Wazuh - Filebeat configuration file
-output.elasticsearch.hosts: ["server-ip:9200"]
+output.elasticsearch.hosts: ["192.168.1.1:9200"]
 output.elasticsearch.password: g6THs8fzVpXiuJBTqTQA
 
 filebeat.modules:
