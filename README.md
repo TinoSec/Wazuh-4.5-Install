@@ -1,5 +1,6 @@
 # Wazuh 4.5 - Install
 This guide will help you in the Wazuh install and configure Wazuh 4.5 with Elasticsearch
+The examples and files assume that the server's ip is 192.168.1.1, change this value to your server's ip
 
 # Installing prerequisites
 
@@ -86,6 +87,13 @@ To check that the installation was made successfully, run the following command 
 ```bash
 curl -XGET https://localhost:9200 -u elastic:<elastic_password> -k
 ```
+
+Example:
+
+*curl -XGET https://192.168.1.1:9200 -u elastic:GeneratedPassword -k*
+
+Correct output
+
 <details>
   <summary>Output Elasticsearch Curl</summary>
   
@@ -285,6 +293,14 @@ URL: https://<wazuh_server_ip>
 user: elastic
 
 password: <PASSWORD_elastic>
+
+Example 
+
+URL: https://192.168.1.1
+
+user: elastic
+
+password: GeneratedPassword
 
 # Disable repositories
 
