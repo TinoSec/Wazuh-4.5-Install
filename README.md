@@ -271,9 +271,11 @@ Enable and start the Kibana service
 systemctl daemon-reload
 systemctl enable kibana
 systemctl start kibana
+
 ```
 Your configuration file should look like this:
 [kibana.yml](https://github.com/TinoSec/Wazuh-4.5-Install/blob/main/kibana.yml)
+
 
 
 Access the web interface using the password generated during the Elasticsearch installation process
