@@ -1,4 +1,4 @@
-# Wazuh 4.5-Guide
+# Wazuh 4.5 - Install
 This guide will help you in the Wazuh install and configure Wazuh 4.5 with Elasticsearch
 
 # Installing prerequisites
