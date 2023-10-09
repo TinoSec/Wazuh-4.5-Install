@@ -1,4 +1,4 @@
-network.host: server-ip
+network.host: 192.168.1.1
 node.name: elasticsearch
 cluster.initial_master_nodes: elasticsearch
 
