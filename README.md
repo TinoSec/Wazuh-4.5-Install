@@ -221,6 +221,9 @@ elasticsearch: https://192.168.1.1:9200...
 ```
 </details>
 
+Your configuration file should look like this:
+[filebeat.yml](https://github.com/TinoSec/Wazuh-4.5-Install/blob/main/filebeat.yml)
+
 # Install Kibana
 
 ```bash
