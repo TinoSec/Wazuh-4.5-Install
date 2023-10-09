@@ -81,7 +81,7 @@ Generate credentials for all the Elastic Stack pre-built roles and users
 ```bash
 /usr/share/elasticsearch/bin/elasticsearch-setup-passwords auto
 ```
-To check that the installation was made successfully, run the following command replacing <localhost with your server ip and <elastic_password> with the password generated in the previous step for elastic user
+To check that the installation was made successfully, run the following command replacing <localhost> with your server ip and <elastic_password> with the password generated in the previous step for elastic user
 
 ```bash
 curl -XGET https://localhost:9200 -u elastic:<elastic_password> -k
