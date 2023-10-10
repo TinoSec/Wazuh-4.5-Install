@@ -1,6 +1,6 @@
 # Wazuh 4.5 - Install
-This guide will help you in the Wazuh install and configure Wazuh 4.5 with Elasticsearch
-The examples and files assume that the server's ip is 192.168.1.1, change this value to your server's ip
+This guide will help you in the Wazuh install and configure Wazuh 4.5 with Elasticsearch on Ubuntu 22.04
+The examples and files assume that the server's ip is "192.168.1.1", change this value to your server's ip
 
 # Installing prerequisites
 
