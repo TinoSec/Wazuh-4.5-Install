@@ -1,7 +1,7 @@
 server.host: 192.168.1.1
 server.port: 443
 elasticsearch.hosts: https://192.168.1.1:9200
-elasticsearch.password: g6THs8fzVpXiuJBTqTQA
+elasticsearch.password: xxxxxxxxxxx
 # Elasticsearch from/to Kibana
 
 elasticsearch.ssl.certificateAuthorities: /etc/kibana/certs/ca/ca.crt
